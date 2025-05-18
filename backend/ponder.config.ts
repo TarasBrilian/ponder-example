@@ -35,6 +35,6 @@ export default createConfig({
   }, 
   database: {
     kind: "postgres",
-    connectionString: "postgresql://postgres:[8MaOsDFEF11KnHWR]@db.xrnimdgkxitsdeeuprmq.supabase.co:5432/postgres"
+    connectionString: "postgresql://postgres:[password]@db.xrnimdgkxitsdeeuprmq.supabase.co:5432/postgres"
   }
 });
