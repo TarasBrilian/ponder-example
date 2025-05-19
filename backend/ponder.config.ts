@@ -32,9 +32,9 @@ export default createConfig({
       address: "0x95222290DD7278Aa3Ddd389Cc1E1d165CC4BAfe5", 
       startBlock: 20000000, 
     }, 
-  }, 
+  },
   database: {
-    kind: "postgres",
-    connectionString: "postgresql://postgres:[password]@db.xrnimdgkxitsdeeuprmq.supabase.co:5432/postgres"
-  }
+      kind: "postgres",
+      connectionString: "postgresql://postgres:password@localhost:5432/testing-aps"
+    }
 });
